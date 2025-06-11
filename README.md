@@ -31,7 +31,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-▶️ [Watch demo video](../Codepath/project_1/gif.gif)
+▶️ [Watch demo video](./project_1/gif.gif)
 
 
 ## Notes
