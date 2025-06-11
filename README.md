@@ -31,7 +31,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-▶️ [Watch demo video](./project_1/gif.gif)
+▶️ ![Walkthrough GIF](project_1/gif.gif)
 
 
 ## Notes
