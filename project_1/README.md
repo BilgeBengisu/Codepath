@@ -31,7 +31,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-▶️ ![Walkthrough GIF](project_1/gif.gif)
+▶️ ![Walkthrough GIF](https://raw.githubusercontent.com/bilgebengisu/Codepath/project_1/walkthrough.gif)
 
 
 ## Notes
