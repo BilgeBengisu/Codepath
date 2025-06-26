@@ -40,7 +40,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
-
+▶️ [Watch the demo video](project_2/project_2.gif)
 
 ## Notes
 
