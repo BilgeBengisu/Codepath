@@ -34,7 +34,16 @@ function App() {
   const [attempted, setAttempted] = useState(false);
   const [flipped, setFlipped] = useState(false);
 
-
+  const previousCard = () => {
+    if (deckIndex > 0) {
+      setDeckIndex(deckIndex - 1);
+      setUserInput('');
+      setFeedback('');
+      setFlipped(false);
+      setAttempted(false);
+    }
+  };
+  
   const nextCard = () => {
     if (!attempted) {
       setFeedback('❗ Please try a guess before moving on.');
@@ -96,10 +105,17 @@ function App() {
           onChange={(e) => setUserInput(e.target.value)}
           className="user-input"
         />
+        <div className="button-group">
+        {deckIndex > 0 && (
+          <button className="prev-button" onClick={previousCard}>
+            Previous Card
+          </button>
+        )}
 
         <button className="check-button" onClick={checkAnswer}>
           Check Answer
         </button>
+      </div>
 
         {feedback && <p>{feedback}</p>}
 
