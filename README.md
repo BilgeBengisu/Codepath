@@ -48,11 +48,11 @@ Here's a walkthrough of implemented user stories: <p></p>
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Getting API calls to work correctly and consistently.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2025] [Bilge Akyol]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
