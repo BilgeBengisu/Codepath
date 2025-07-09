@@ -1,0 +1,51 @@
+.container {
+  padding: 1rem;
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.discover-button {
+  padding: 10px 20px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.art-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.art-image {
+  max-height: 400px;
+  width: auto;
+  margin: 0 auto 1rem;
+}
+
+.clickable {
+  color: #2563eb;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.ban-list {
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.ban-tag {
+  display: inline-block;
+  background: #fecaca;
+  color: #b91c1c;
+  margin: 4px;
+  padding: 4px 10px;
+  border-radius: 12px;
+  cursor: pointer;
+}
