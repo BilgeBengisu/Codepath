@@ -4,6 +4,11 @@
   padding: 2rem;
   text-align: center;
 }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
 
 .logo {
   height: 6em;
