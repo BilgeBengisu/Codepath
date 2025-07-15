@@ -23,12 +23,11 @@
   margin: 0;
   padding: 0;
 
-  display: flex;    /* THIS makes the links horizontal */
+  display: flex;  
   gap: 1.5rem;
 }
 
 .navbar-links li {
-  /* No block or width styles here */
 }
 
 .navbar-links li a {
