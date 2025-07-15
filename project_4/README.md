@@ -1,54 +1,54 @@
-# Web Development Project 3 - *Italian Phrases Flashcards*
+# Web Development Project 4 - *Met Museum Art Explorer*
 
 Submitted by: **Bilge Akyol**
 
-This web app: **Italian Phrases Flashcards**
+This web app: **Met Museum Art Explorer**
 
-Time spent: **2** hours spent in total
+Time spent: **1** hours spent in total
 
 ## Required Features
 
-The following **required** functionality is completed:
+The following **required** functionality is completed: 
 
-- [x] **The user can enter their guess into an input box *before* seeing the flipside of the card**
-  - Application features a clearly labeled input box with a submit button where users can type in a guess
-  - Clicking on the submit button with an **incorrect** answer shows visual feedback that it is wrong 
-  -  Clicking on the submit button with a **correct** answer shows visual feedback that it is correct
-- [x] **The user can navigate through an ordered list of cardss**
-  - A forward/next button displayed on the card navigates to the next card in a set sequence when clicked
-  - A previous/back button displayed on the card returns to the previous card in the set sequence when clicked
-  - Both the next and back buttons should have some visual indication that the user is at the beginning or end of the list (for example, graying out and no longer being available to click), not allowing for wrap-around navigation
+- [x] **Application features a button that creates a new API fetch request on click and displays at least three attributes and an image obtained from the returned JSON data**
+  - The type of attribute displayed for each image should be consistent across API calls (i.e. if you are using a cat API, and display the color, breed, and age in response to an initial API call, subsequent button clicks should also result in the color, breed, and age being displayed)
+- [x] **Only one item/data from API call response is viewable at a time and at least one image is displayed per API call**
+  - A single result of an API call is displayed at a time 
+  - Displayed attributes should match the displayed image (i.e., if showing a picture of a Siamese cat and the attribute breed, the displayed breed should be 'Siamese' not 'Ragdoll' or another breed that doesn't match)
+  - There is at least one image per API call
+- [x] **API call response results should appear random to the user**
+  - Clicking on the API call button should generate a seemingly random new result each time
+  - Note: Repeat results are permitted but the API used should have a reasonably large amount of data and repeats should not be frequent
+- [x] **Clicking on a displayed value for one attribute adds it to a displayed ban **list**
+  - At least one attribute for each API result should be clickable
+  - Clicking on a clickable attribute not on the ban list, should imnmediately add it to the ban list 
+  - Clicking on an attribute in the ban list should immediately remove it from the ban list 
+- [x] **Attributes on the ban list prevent further images/API results with that attribute from being displayed**
+  - Clicking on the API call button should not result in any image/attributes with attribute values in the ban list being displayed (ex. Using a cat API, if the ban list includes the value 'Siberian' for the breed attribute, clicking on the Discover button should never result in a Siberian cat being displayed)
+  - Note: More attribute values on the ban list may result in a higher frequency of repeat results
+  -  [x] _To ensure an accurate grade, your recording **must** show that when clicked, an attribute in the ban list is immediately removed from the list of banned attributes_
+
 
 The following **optional** features are implemented:
 
-
-- [ ] Users can use a shuffle button to randomize the order of the cards
-  - Cards should remain in the same sequence (**NOT** randomized) unless the shuffle button is clicked 
-  - Cards should change to a random sequence once the shuffle button is clicked
-- [x] A user’s answer may be counted as correct even when it is slightly different from the target answer
-  - Answers are considered correct even if they only partially match the answer on the card 
-  - Examples: ignoring uppercase/lowercase discrepancies, ignoring punctuation discrepancies, matching only for a particular part of the answer rather than the whole answer
-- [ ] A counter displays the user’s current and longest streak of correct responses
-  - The current counter increments when a user guesses an answer correctly
-  - The current counter resets to 0 when a user guesses an answer incorrectly
-  - A separate counter tracks the longest streak, updating if the value of the current streak counter exceeds the value of the longest streak counter 
-- [ ] A user can mark a card that they have mastered and have it removed from the pool of displayed cards
-  - The user can mark a card to indicate that it has been mastered
-  - Mastered cards are removed from the pool of displayed cards and added to a list of mastered cards
-
+- [ ] Multiple types of attributes are clickable and can be added to the ban list
+- [ ] Users can see a stored history of their previously displayed  results from this session
+  - A dedicated section of the application displays all the previous images/attributes seen before
+  - Each time the API call button is clicked, the history updates with the newest API result
 
 The following **additional** features are implemented:
 
-* [x]Embedded youtube video to learn Italian
+* [ ] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
-Here's a walkthrough:
-https://drive.google.com/file/d/1_5BddA8KfDtWzTG6CujOBXu9aSXh7ZBa/view?usp=sharing
+Here's a walkthrough of implemented user stories: <p></p>
+![project_4_video](https://github.com/user-attachments/assets/1f079012-2775-494a-8c20-96da3503b457)
+
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Getting API calls to work correctly and consistently.
 
 ## License
 
