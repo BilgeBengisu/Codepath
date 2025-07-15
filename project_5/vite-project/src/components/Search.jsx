@@ -37,7 +37,7 @@ export const Search = () => {
                     onChange={(e) => setQuery(e.target.value)}
                     style={{ padding: '0.5rem', width: '250px' }}
                 />
-                <button onClick={handleSearch} style={{ padding: 'o.5rem 1rem', marginLeft: '0.5rem', zIndex:2}}>
+                <button type="submit" onClick={handleSearch} >
                     Search
                 </button>
             </div>
