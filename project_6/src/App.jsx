@@ -1,7 +1,9 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import {Navbar} from './components/Navbar';
+import {Dashboard} from './components/Dashboard';
+import {BookDetail} from './components/BookDetail';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +14,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Navigate to="/dashboard" replace />} />
         <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/search" element={<Search />} />
+        <Route path="/book/*" element={<BookDetail />} />
+        <Route path="/book" element={<p>Invalid book ID. Please go back.</p>} />
       </Routes>
     </Router>
   )

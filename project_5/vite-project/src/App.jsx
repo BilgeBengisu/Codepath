@@ -6,6 +6,7 @@ import {Navbar} from "./components/Navbar.jsx"
 import {Dashboard} from "./components/Dashboard.jsx" 
 import {About} from "./components/About.jsx" 
 import {Search} from "./components/Search.jsx" 
+import {BookDetail} from './components/BookDetail';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
 
@@ -18,8 +19,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Navigate to="/dashboard" replace />} />
         <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/about" element={<About />} />
         <Route path="/search" element={<Search />} />
+        <Route path="/book/:id" element={<BookDetail />} />
       </Routes>
     </Router>
   );
