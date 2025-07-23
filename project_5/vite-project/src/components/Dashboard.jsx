@@ -62,7 +62,7 @@ export const Dashboard = () => {
         ))}
       </div>
 
-      {/* Loading State */}
+      {/* Loading Message */}
       {loading && <p>Loading countries...</p>}
 
       {/* Country Grid */}
