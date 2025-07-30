@@ -10,19 +10,6 @@ export const BookDetail = () => {
   const [book, setBook] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  // to display languages in a user-friendly way
-  const langMap = {
-    eng: 'English',
-    fre: 'French',
-    spa: 'Spanish',
-    ger: 'German',
-    ita: 'Italian',
-    tur: 'Turkish',
-    // add more as needed
-  };
-
-  const displayLang = (code) => langMap[code] || code.toUpperCase();
-
   useEffect(() => {
     const fetchBook = async () => {
       try {
@@ -64,12 +51,6 @@ export const BookDetail = () => {
         <ul className="book-info-list">
           {book.first_publish_date && (
             <li><strong>First Published:</strong> {book.first_publish_date}</li>
-          )}
-          {book.language && (
-            <li>
-                <strong>Languages:</strong>{' '}
-                {book.language.map(displayLang).join(', ')}
-            </li>
           )}
         </ul>
       </div>
