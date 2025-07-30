@@ -20,7 +20,7 @@ export default function SummaryPage() {
             <ul>
                 {crew.map(c => (
                     <li key={c.id}>
-                        <Link to={'/crewmate/${c.id}'}>{c.name} - {c.color} - {c.role}</Link>
+                        <Link to={`/crewmate/${c.id}`}>{c.name} - {c.color} - {c.role}</Link>
                         <Link to={`/edit/${c.id}`}>Edit</Link>
                     </li>
                 ))}

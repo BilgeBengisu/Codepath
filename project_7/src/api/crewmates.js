@@ -35,7 +35,6 @@ export async function updateCrewmate(id, updates) {
         .update(updates)
         .eq('id', id)
         .select()
-        .single();
     if (error) throw error;
     return data;
 }
