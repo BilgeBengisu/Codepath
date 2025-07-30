@@ -1,5 +1,4 @@
 # Web Development Project 6 - *Open Library Explorer*
-
 Submitted by: **Bilge Akyol**
 
 This web app: **Open Library Explorer**
