@@ -1,3 +1,6 @@
+# Environment variables for Supabase
+.env
+
 # Logs
 logs
 *.log

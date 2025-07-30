@@ -9,7 +9,7 @@ export async function fetchCrewmates() {
     return data;
 }
 
-export async function fetchCrewmates(id) {
+export async function fetchCrewmate(id) {
     const { data, error } = await supabase
         .from('crewmates')
         .select('*')

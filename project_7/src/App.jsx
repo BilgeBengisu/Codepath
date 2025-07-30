@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
-import CreatePage from './pages/CreatePage';
-import SummaryPage from './pages/SummaryPage';
-import DetailPage from './pages/DetailPage';
-import EditPage from './pages/EditPage';
+import CreatePage from './pages/CreatePage.jsx';
+import SummaryPage from './pages/SummaryPage.jsx';
+import DetailPage from './pages/DetailPage.jsx';
+import EditPage from './pages/EditPage.jsx';
 
-function App() {
+
+export default function App() {
   return (
     <Routes>
       <Route path="/" element={<SummaryPage />} />
@@ -16,5 +17,3 @@ function App() {
     </Routes>
   );
 }
-
-export default App
