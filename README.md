@@ -1,8 +1,8 @@
-# Web Development Project 6 - *Open Library Explorer*
+# Web Development Project 7 - *Crewmates*
 
 Submitted by: **Bilge Akyol**
 
-This web app: **Open Library Explorer**
+This web app: **Crewmates**
 
 Time spent: **3** hours spent in total
 
@@ -10,34 +10,44 @@ Time spent: **3** hours spent in total
 
 The following **required** functionality is completed:
 
-- [x] **Clicking on an item in the list view displays more details about it**
-  - Clicking on an item in the dashboard list navigates to a detail view for that item
-  - Detail view includes extra information about the item not included in the dashboard view
-  - The same sidebar is displayed in detail view as in dashboard view
-  - *To ensure an accurate grade, your sidebar **must** be viewable when showing the details view in your recording.*
-- [x] **Each detail view of an item has a direct, unique URL link to that item’s detail view page**
-  -  *To ensure an accurate grade, the URL/address bar of your web browser **must** be viewable in your recording.*
-- [x] **The app includes at least two unique charts developed using the fetched data that tell an interesting story**
-  - At least two charts should be incorporated into the dashboard view of the site
-  - Each chart should describe a different aspect of the dataset
 
+- [x] **The web app contains a page that features a create form to add a new crewmate**
+  - Users can name the crewmate
+  - Users can set the crewmate’s attributes by clicking on one of several values
+- [x] **The web app includes a summary page of all the user’s added crewmatese**
+  -  The web app contains a summary page dedicated to displaying all the crewmates the user has made so far
+  -  The summary page is sorted by creation date such that the most recently created crewmates appear at the top
+- [x] **A previously created crewmate can be updated from the list of crewmates in the summary page**
+  - Each crewmate has an edit button that will take users to an update form for the relevant crewmate
+  - Users can see the current attributes of their crewmate on the update form
+  - After editing the crewmate's attribute values using the form, the user can immediately see those changes reflected in the update form and on the summary page 
+- [x] **A previously created crewmate can be deleted from the crewmate list**
+  - Using the edit form detailed in the previous _crewmates can be updated_ feature, there is a button that allows users to delete that crewmate
+  - After deleting a crewmate, the crewmate should no longer be visible in the summary page
+  - [x] **Each crewmate has a direct, unique URL link to an info page about them**
+    - Clicking on a crewmate in the summary page navigates to a detail page for that crewmate
+    - The detail page contains extra information about the crewmate not included in the summary page
+    - Users can navigate to to the edit form from the detail page
 
 The following **optional** features are implemented:
 
-- [ ] The site’s customized dashboard contains more content that explains what is interesting about the data 
-  - e.g., an additional description, graph annotation, suggestion for which filters to use, or an additional page that explains more about the data
-- [ ] The site allows users to toggle between different data visualizations
-  - User should be able to use some mechanism to toggle between displaying and hiding visualizations 
+- [ ] A crewmate can be given a category upon creation which restricts their attribute value options
+  - e.g., a Dungeons and Dragons class or a development team role (project manager, product owner, etc.)
+  - User can choose a `category` option to describe their crewmate before any attributes are specified
+  - Based on the category value, users are allowed to access only a subset of the possible attributes
+- [ ] A section of the summary page, displays summary statistics about a user’s crew on their crew page
+  - e.g., the percent of members with a certain attribute 
+- [ ] The summary page displays a custom “success” metric about a user’s crew which changes the look of the crewmate list
+  - e.g., a pirate crew’s predicted success at commandeering a new galley
 
-  
+
 The following **additional** features are implemented:
 
 * [ ] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
+![project_7_video](https://github.com/user-attachments/assets/b01af717-a525-4220-a4b2-02d3e8b36035)
 
-Here's a walkthrough of implemented user stories:
-![project6_video](https://github.com/user-attachments/assets/6806924e-f184-4da5-8d5c-ea6a65a625fb)
 
 ## Notes
 
